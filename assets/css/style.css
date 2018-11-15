@@ -11,40 +11,73 @@ header {
     background-color: #000;
 }
 
-.navbar {
-    background-color: rgba(0, 0, 0, 0.9);
-    width: 100%;
-    height: 60px;
-    padding: 0px;
-    border: 0;
-    border-radius: 0px;
+/* -- Nav -- */
+
+.navbar-inverse {
+    background-color: #000;
 }
 
-.navbar-default{
-    margin-bottom: 0px;
-    min-height: 0px;
+.navbar {
+    position: relative;
+    min-height: 60px;
+    margin-bottom: 0;
+    border-radius: 0;
+}
 
+.navbar-nav>li>a {
+    line-height: 30px;
 }
 
 .icon {
     height: 30px;
     width: 80px;
-    padding: 0;
-    
 }
+
+/* -- Nav -- */
+
+/* -- Banner -- */
 
 .banner-container{
-    background: url(../images/banner.jpg) center;
     max-width: 100%;
-    min-height: 555px;
-    padding: 20px;
+    height: 100%;
 }
 
-.logo{
+.parallax { 
+    /* The image used */
+    background-image: url(../images/banner.jpg);
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.media-parallax {
+    /* The image used */
+    background-image: url(../images/pixiesmedia.jpg);
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
     height: 110px;
+    margin-top: 15px;
 }
 
-/* -- Section -- */
+/* -- Banner -- */
+
+/* -- Main -- */
 
 h1,
 h2,
@@ -54,6 +87,9 @@ h3 {
     color: #000;
 }
 
+.thumbnail {
+    float: left;
+}
 
 .news {
     padding-top: 15px;
@@ -61,19 +97,33 @@ h3 {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
 
+.news-updates {
+    margin-right: 15px;
+    margin-left: 15px;
+}
 
-/* -- Section -- */
+.news-updates .thumbnail img {
+    width: 100%;
+}
+
+/* -- Main -- */
 
 
 /* -- Footer -- */
 
-}.social:hover {
+.social-links {
+    margin-bottom: 15px;
+}
+
+.social:hover {
      -webkit-transform: scale(1.1);
      -moz-transform: scale(1.1);
      -o-transform: scale(1.1);
  }
  .social {
+     color: #fff;
      -webkit-transform: scale(0.8);
      /* Browser Variations: */
      
@@ -97,6 +147,11 @@ h3 {
  #social-gp:hover {
      color: #d34836;
  }
- #social-em:hover {
-     color: #f39c12;
+ #social-in:hover {
+     color: #cd486b;
  }
+ 
+ /*
+    Media Queries
+*/
+ 
