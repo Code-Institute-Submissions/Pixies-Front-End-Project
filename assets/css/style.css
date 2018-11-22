@@ -7,9 +7,7 @@ header {
     
 }
 
-.footer {
-    background-color: #000;
-}
+
 
 /* -- Nav -- */
 
@@ -22,6 +20,7 @@ header {
     min-height: 60px;
     margin-bottom: 0;
     border-radius: 0;
+    text-transform: uppercase;
 }
 
 .navbar-nav>li>a {
@@ -56,9 +55,23 @@ header {
     background-size: cover;
 }
 
-.media-parallax {
+.listen-parallax {
     /* The image used */
     background-image: url(../images/pixiesmedia.jpg);
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.watch-parallax {
+    /* The image used */
+    background-image: url(../images/watchbanner.jpg);
 
     /* Set a specific height */
     height: 500px; 
@@ -74,8 +87,6 @@ header {
     height: 110px;
     margin-top: 15px;
 }
-
-/* -- Banner -- */
 
 /* -- Main -- */
 
@@ -108,50 +119,117 @@ h3 {
     width: 100%;
 }
 
-/* -- Main -- */
+/* -- Listen -- */
 
+
+.listen {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.streaming-button {
+    border-style: none;
+}
+
+.button-image {
+    width: 180px;
+    height: 68px;
+}
+
+/* -- Watch -- */
+
+
+.watch {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.photos {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
 
 /* -- Footer -- */
+
+.footer {
+    background-color: #000;
+    padding-top: 15px;
+    color: #9d9d9d;
+}
+
+/* -- Top Button -- */
+
+.top-button {
+    color: #000;
+}
+
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+    border-style: solid;
+}
+
+/* -- Email Sign Up -- */
+
+.form-group {
+    margin-bottom: 5px;
+    color: #c3c3c3;
+}
+
+.sign-up-button {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.disclaimer {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: x-small;
+}
+
+/* -- Social Media Links -- */
+ 
 
 .social-links {
     margin-bottom: 15px;
 }
 
 .social:hover {
-     -webkit-transform: scale(1.1);
-     -moz-transform: scale(1.1);
-     -o-transform: scale(1.1);
- }
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
  .social {
-     color: #fff;
-     -webkit-transform: scale(0.8);
-     /* Browser Variations: */
-     
-     -moz-transform: scale(0.8);
-     -o-transform: scale(0.8);
-     -webkit-transition-duration: 0.5s;
-     -moz-transition-duration: 0.5s;
-     -o-transition-duration: 0.5s;
- }
+    color: #fff;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
 
-/*
-    Multicoloured Hover Variations
-*/
- 
- #social-fb:hover {
+#social-fb:hover {
      color: #3B5998;
- }
- #social-tw:hover {
+}
+#social-tw:hover {
      color: #4099FF;
- }
- #social-gp:hover {
+}
+#social-gp:hover {
      color: #d34836;
- }
- #social-in:hover {
+}
+#social-in:hover {
      color: #cd486b;
- }
+}
  
- /*
-    Media Queries
-*/
+ /* -- Media Queries -- */
  
