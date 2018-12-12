@@ -1,12 +1,15 @@
 body {
     font-family: 'Roboto Mono', monospace, sans-serif;
+    background: url(../images/greybackground.jpg) no-repeat center center fixed;
 }
 
 header {
     margin:0;
-    
 }
 
+hr {
+    border-top-color: #847979;
+}
 
 
 /* -- Nav -- */
@@ -27,6 +30,12 @@ header {
     line-height: 30px;
 }
 
+.navbar-inverse .navbar-nav>li>a:hover {
+    -moz-transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
+
 .icon {
     height: 30px;
     width: 80px;
@@ -42,13 +51,8 @@ header {
 }
 
 .parallax { 
-    /* The image used */
-    background-image: url(../images/banner.jpg);
-
-    /* Set a specific height */
+    background-image: url(../images/home.jpg);
     height: 500px; 
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,13 +60,8 @@ header {
 }
 
 .listen-parallax {
-    /* The image used */
     background-image: url(../images/pixiesmedia.jpg);
-
-    /* Set a specific height */
     height: 500px; 
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -70,18 +69,33 @@ header {
 }
 
 .watch-parallax {
-    /* The image used */
     background-image: url(../images/watchbanner.jpg);
-
-    /* Set a specific height */
     height: 500px; 
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.tour-parallax {
+    background-image: url(../images/tour.jpg);
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-parallax {
+    background-image: url(../images/contact.jpg);
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* -- Logo -- */
 
 .logo {
     height: 110px;
@@ -92,14 +106,28 @@ header {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     text-transform: uppercase;
     font-weight: 700;
     color: #000;
 }
 
-.thumbnail {
-    float: left;
+.jumbotron {
+    background: url(../images/headcarrier.jpg) center center;
+    height: 300px;
+    text-align: center;
+    border: 1.5px solid;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.container-fluid .jumbotron {
+    border-radius: 0px;
 }
 
 .news {
@@ -115,8 +143,24 @@ h3 {
     margin-left: 15px;
 }
 
+.thumbnail {
+    float: left;
+    border:0px;
+    background-color: #fff0;
+}
+
 .news-updates .thumbnail img {
     width: 100%;
+    height: 370px;
+}
+
+.story-button {
+    border-radius: 0px;
+    border-color: #000;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    border-width: 1.5px;
 }
 
 /* -- Listen -- */
@@ -128,8 +172,20 @@ h3 {
     margin-bottom: 15px;
 }
 
-.streaming-button {
+.btn.btn-lg.streaming-button, .btn.btn-lg.streaming-button:active {
     border-style: none;
+    background-color: #fff0;
+    box-shadow: none;
+}
+
+.btn-sm {   
+    border: 1.5px solid;
+}
+
+.btn.btn-default.btn-sm:active, .btn.btn-default.btn-sm:hover, .btn.btn-default.btn-sm:focus {
+    color: #333;
+    background-color: #d4d4d4;
+    border-color: #333;
 }
 
 .button-image {
@@ -150,6 +206,48 @@ h3 {
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 15px;
+}
+
+/* -- Tour -- */
+
+.tour {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.book-button {
+    color: #ffffff;
+    background-color: #e92c2c;
+    border-color: #333;
+    border-radius: 0px;
+    border-width: 1.5px;
+    text-transform: uppercase;
+}
+
+.book-button:hover, .book-button:focus, .book-button:active, .book-button.active, .open > .dropdown-toggle.book-button {
+    color: #f1d6d6;
+    background-color: #e92c2ce0;
+    border-color: #000000;
+}
+
+.book-button:active, .book-button.active {
+    color: #f1d6d6;
+    background-color: #c41111;
+    border-color: #000000;
+}
+
+/* -- Contact -- */
+
+.contact {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+
+#name, #email, #message  {
+    color: #333;
+    text-transform: uppercase;
 }
 
 /* -- Footer -- */
@@ -230,6 +328,72 @@ h3 {
 #social-in:hover {
      color: #cd486b;
 }
+#social-spot:hover {
+     color: #1db954;
+}
+#social-yt:hover {
+     color: #ff0000;
+}
  
  /* -- Media Queries -- */
  
+@media (min-width: 640px){
+    
+    .news {
+       margin-left: 20px;
+       margin-right: 20px;
+    }
+}
+
+@media (min-width: 992px){
+    
+    .news {
+       margin-left: 50px;
+       margin-right: 50px;
+    }
+}
+
+@media (max-width: 480px){
+    
+    .table {
+        font-size: 10px!important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+    .contact-parallax {
+        background-image: url(../images/contact.jpg);
+        height: 500px;
+        background-attachment: fixed;
+        background-position: 55% 45%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .parallax {
+        background-image: url(../images/home.jpg);
+        height: 500px;
+        background-attachment: fixed;
+        background-position: 55% 45%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+} 
+
+@media (min-width:992px) {
+    .jumbotron {
+        height:450px;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    .contact-parallax {
+        background-image: url(../images/contact.jpg);
+        height: 500px;
+        background-attachment: fixed;
+        background-position: 55% 45%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
