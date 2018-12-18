@@ -12,7 +12,7 @@ This website will be used by fans and/or potential fans interested in listening 
   * As a fan/potential fan/booker, I want to be able to access the band's social media pages in order to view their media and to see the kind of fan numbers their content generates.
 
 ## Wireframes
-  * [Mobile Wireframes](https://www.google.com)
+  * [Mobile Wireframes](https://github.com/johnnycistudent/Pixies-Front-End-Project/blob/master/assets/documents/mobile_wireframe.pdf)
   * [Desktop Wireframes](https://www.google.com)
 
 
