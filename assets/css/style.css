@@ -36,12 +36,15 @@ hr {
     -o-transition: all 0.30s ease-in-out;
 }
 
+#myNavbar ul li .active-page {
+    color: #fff;
+}
+
 .icon {
     height: 30px;
     width: 80px;
 }
 
-/* -- Nav -- */
 
 /* -- Banner -- */
 
@@ -111,6 +114,11 @@ h4 {
     text-transform: uppercase;
     font-weight: 700;
     color: #000;
+}
+
+.btn-default:hover,
+.btn-default:active {
+    border-color: #333!important;
 }
 
 .jumbotron {
