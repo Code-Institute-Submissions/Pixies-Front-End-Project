@@ -7,12 +7,11 @@ It is made to exhibit their music and videos, announce news and tour dates and b
 This website will be used by fans and/or potential fans interested in listening to the Pixies music and keeping up to date with the band's tour dates and latest news announcements. 
 It will also give fans an opportunity to sign up to an email newsletter as well as display contact information about the band's booking agents/managers.
 
-  * As a fan/potential fan, I want to learn about the latest band-related news such as announcements of new music and tour dates.
-  * As a fan/potential fan, I want to be able to listen to the band's new music and have access to their back catalogue.
-  * As a fan/potential fan, I want to to be able to watch music videos featuring the band including production videos and videos of their latest live performances. I also want to see photos from their instagram feeds and latest shows.
-  * As a fan/potential fan, I want to check their latest tour dates and would like to have the ability to book tickets from the website. 
-  * As a promoter/booker, I want to know how to contact the band's management in order to potentially book them for events.
-  * As a fan/potential fan/booker, I want to be able to access the band's social media pages in order to view their media and to see the kind of fan numbers their content generates.
+  * As a fan/potential fan, I want to learn about the latest band-related news such as announcements of new music and tour dates.  
+  * As a fan/potential fan, I want to be able to listen to the band's new music and have access to their back catalogue.  
+  * As a fan/potential fan, I want to to be able to watch music videos featuring the band including production videos and videos of their latest live performances. I also want to see photos from their instagram feeds and latest shows.  
+  * As a fan/potential fan, I want to check their latest tour dates and would like to have the ability to buy tickets to those shows.   
+  * As a promoter/booker, I want to know how to contact the band's management in order to potentially book them for events.  
 
 ## Wireframes
 My project began with the wireframes in the links below but the design of the pages developed as I made them. I added the parallax scrolling banner image on every page after I made the wireframes as it made the top of the page where the user sees first more impressive. 
@@ -102,47 +101,51 @@ Test Photo carousel's functionality on all devices.
 ## Testing
 
 ### Testing User Stories
-1. User Story 1 - As a fan/potential fan, I want to learn about the latest band-related news such as announcements of new music and tour dates.
+
+#### 1. User Story 1 - As a fan/potential fan, I want to learn about the latest band-related news such as announcements of new music and tour dates.
  
-  Test: View latest news 
+#####   Test 1: View latest news 
 
-  i. Go to the Home/Index Page
-  ii. Scroll down to the "Latest News" section
-  iii. Click on one of the news stories photos or "Read more" links in order to be redirected to the original article. 
-  iv. Click on one of the other links associated with the stories to book tickets to shows or go to the music player.  
+   i. Go to the Home/Index Page   
+   ii. Scroll down to the "Latest News" section.   
+   iii. Click on one of the news stories photos or "Read more" links in order to be redirected to the original article.   
+   iv. Click on one of the other links associated with the stories to book tickets to shows or go to the music player.   
 
-2. User Story 2 - As a fan/potential fan, I want to be able to listen to the band's new music and have access to their back catalogue.
+#####   Test 2: Sign up to mailing list
+
+   i. Scroll down to the footer on any of the pages and locate the mailing list sign up form.   
+   ii. Verify that an error message appears when an empty field is submitted.   
+   iii. Verify that an error message appears when no email address is present.   
+
+#### 2. User Story 2 - As a fan/potential fan, I want to be able to listen to the band's new music and have access to their back catalogue.
   
-  Test: Listen to Pixies music
+#####  Test: Listen to audio tracks
   
-  i.  Click on the "Listen" tab in the header. 
-  ii. Navigate to one of the Pixies albums on the page. 
-  iii. Click on the play button on the album to play 30 second snippets of each song or log in to Spotify to avail of the full tracks. 
-  iv. Click on the links below each album for more download options or navigate to below all the albums for even more downloading/streaming options. 
+   i.  Click on the "Listen" tab in the header.   
+   ii. Navigate to one of the Pixies albums on the page.   
+   iii. Click on the play button on the album to play 30 second snippets of each song or log in to Spotify to avail of the full tracks.   
+   iv. Click on the links below each album for more download options or navigate to below all the albums for even more downloading/streaming options.   
 
-3. User Story 3 - As a fan/potential fan, I want to to be able to watch music videos featuring the band including production videos and videos of their latest live performances. I also want to see photos from their instagram feeds and latest shows.
-  i.  
-  ii. 
-  iii.
-  iv. 
+#### 3. User Story 3 - As a fan/potential fan, I want to to be able to watch music videos featuring the band including production videos and videos of their latest live performances. I also want to see photos from their instagram feeds and latest shows.
 
-4. User Story 4 - As a fan/potential fan, I want to check their latest tour dates and would like to have the ability to book tickets from the website. 
-  i.  
-  ii. 
-  iii.
-  iv.
+##### Test: Watch video content
 
-5. User Story 5 - As a promoter/booker, I want to know how to contact the band's management in order to potentially book them for events.
-  i.  
-  ii. 
-  iii.
-  iv.
+   i.  Click on the "Watch" tab in the header.   
+   ii. Scroll down to the videos. Play, pause, full screen and adjust volume on embedded players.   
 
-6. User Story 6 - As a fan/potential fan/booker, I want to be able to access the band's social media pages in order to view their media and to see the kind of fan numbers their content generates.
-  i.  
-  ii. 
-  iii.
-  iv.
+#### 4. User Story 4 - As a fan/potential fan, I want to check their latest tour dates and would like to have the ability to buy tickets to those shows. 
+ 
+##### Test: View tour dates and book tickets.
+ 
+   i. Click on the "Tour" tab in the header or access from one of the links in the "Latest News" section on the index page.    
+   ii. Scroll through the tour dates and click on one of the "Book" buttons to verify it takes you to a site that enables you to books tickets for that venue.   
+
+#### 5. User Story 5 - As a promoter/booker, I want to know how to contact the band's management in order to potentially book them for events.
+  
+##### Test: Enquire about booking the band  
+  
+   i. Navigate to the "Contact" page by clicking on the tab in the header. 
+   ii. Enter your name, email and query into the respective fields. Verify the form will not allow you to submit without all the fields correctly filled out and that the email address field is valid.    
 
 ## Deployment
 The code for this website was pushed from Cloud9 to a repository in GitHub and is published on GitHun where you can access it here:
