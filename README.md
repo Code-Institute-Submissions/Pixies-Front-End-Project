@@ -103,6 +103,46 @@ Test Photo carousel's functionality on all devices.
 
 ### Testing User Stories
 1. User Story 1 - As a fan/potential fan, I want to learn about the latest band-related news such as announcements of new music and tour dates.
+ 
+  Test: View latest news 
+
+  i. Go to the Home/Index Page
+  ii. Scroll down to the "Latest News" section
+  iii. Click on one of the news stories photos or "Read more" links in order to be redirected to the original article. 
+  iv. Click on one of the other links associated with the stories to book tickets to shows or go to the music player.  
+
+2. User Story 2 - As a fan/potential fan, I want to be able to listen to the band's new music and have access to their back catalogue.
+  
+  Test: Listen to Pixies music
+  
+  i.  Click on the "Listen" tab in the header. 
+  ii. Navigate to one of the Pixies albums on the page. 
+  iii. Click on the play button on the album to play 30 second snippets of each song or log in to Spotify to avail of the full tracks. 
+  iv. Click on the links below each album for more download options or navigate to below all the albums for even more downloading/streaming options. 
+
+3. User Story 3 - As a fan/potential fan, I want to to be able to watch music videos featuring the band including production videos and videos of their latest live performances. I also want to see photos from their instagram feeds and latest shows.
+  i.  
+  ii. 
+  iii.
+  iv. 
+
+4. User Story 4 - As a fan/potential fan, I want to check their latest tour dates and would like to have the ability to book tickets from the website. 
+  i.  
+  ii. 
+  iii.
+  iv.
+
+5. User Story 5 - As a promoter/booker, I want to know how to contact the band's management in order to potentially book them for events.
+  i.  
+  ii. 
+  iii.
+  iv.
+
+6. User Story 6 - As a fan/potential fan/booker, I want to be able to access the band's social media pages in order to view their media and to see the kind of fan numbers their content generates.
+  i.  
+  ii. 
+  iii.
+  iv.
 
 ## Deployment
 The code for this website was pushed from Cloud9 to a repository in GitHub and is published on GitHun where you can access it here:
@@ -127,33 +167,61 @@ This website was designed by John O'Connor.
 ### Media 
 
   * The Logo and mini-logo were obtained from:
+    
     [Logo](https://upload.wikimedia.org/wikipedia/en/8/85/The_Pixies_logo.png)
+    
     [Mini Logo](https://turnupthatvolume.files.wordpress.com/2017/08/pixieslogo2.jpg)
+
   * The images from the 'Home' page were obtained from:
+
     [Hero Banner Image](https://valleyadvocate.com/wp-content/uploads/2017/09/Pixies_0607_BW_hi-copy-1.jpg)
+    
     [Jumbotron album cover Image](https://media.npr.org/assets/img/2016/09/19/pixiesalbumart_sq-72bf6151e164be8afc76308152a25e96c771d2fd-s800-c85.jpg)
+    
     [1st story](http://www.fueledbyramen.com/sites/g/files/g2000005606/f/201810/Weezer_Pixies_Instagram_Story_wDates_1080x1920_Static.jpg)
+    
     [2nd story](https://www.billboard.com/files/styles/article_main_image/public/media/pixies-1989-billboard-1548.jpg)
+    
     [3rd story](https://www.rollingstone.com/wp-content/uploads/2018/08/ComeOnPil_SurferRosa-Standard-Vinyl_lo_sm.jpg?w=300)
+    
   * The images from the 'Listen' page were obtained from:
+    
     [Hero Banner Image](http://larecord.com/larwp/wp-content/gallery/dec2017_pixies_hollywood-palladium/Pixies-2.jpg)
+    
     [All audio files on this page are embedded from Spotify](https://open.spotify.com/artist/6zvul52xwTWzilBZl6BUbT)
+    
     [Apple music button image](https://www.chasingcoral.com/wp-content/uploads/2017/09/listen-on-apple-music-badge.png)
+    
     [Spotify music button image](https://medicalschoolhq.net/wp-content/uploads/2018/02/listen-on-spotify-1024x359.png)
+    
     [Amazon music button image](https://static1.squarespace.com/static/5a627e7c80bd5e4208582014/5bec508a1ae6cf66cda73e6c/5bec508a03ce640e332ed396/1542213913213/amazon-music.png)
+    
     [Youtube music button image](https://static1.squarespace.com/static/59605e61b8a79bc707f41adb/t/598b10eae6f2e199ff0f7640/1534711077881/)
+    
     [Google play music button image](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Get_it_on_Google_play.svg/1280px-Get_it_on_Google_play.svg.png)
+    
     [Deezer music button image](https://static1.squarespace.com/static/59d0aed3e45a7c855f6fe993/59df68e664b05fcb66e7a6ba/59e094bfe3df287c5804cf86/1507892908064/deezer.png)
+
   * The images from the 'Watch' page were obtained from:
+    
     [Hero Banner Image](https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/16114093_10154889973922442_7036852731440663618_n.jpg?_nc_cat=103&_nc_ht=scontent-dub4-1.xx&oh=e13490c4ad141e4e1409bf4e0b13afcc&oe=5C8E0BB3)
+    
     [All video files are embedded from Youtube](https://www.youtube.com/channel/UCEMVQmE2DNpGqdwJi7-o5LQ)
+    
     [1st Photo carousel photo](https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/46323420_10156793731212442_1051819288718999552_n.jpg?_nc_cat=102&_nc_ht=scontent-dub4-1.xx&oh=59af81518de138aa475873234d62f3e2&oe=5CA6D439)
+    
     [2nd Photo carousel photo](https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/14079629_10154436063712442_533863648643693801_n.png?_nc_cat=111&_nc_ht=scontent-dub4-1.xx&oh=06a2c6f63c768bb803d67b7c035e176a&oe=5CA80D22)
+    
     [3rd Photo carousel photo](https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/45216611_10156759059137442_8192266713979420672_n.jpg?_nc_cat=106&_nc_ht=scontent-dub4-1.xx&oh=909b089c58c4ed212b4873a23d9f3ea4&oe=5C8D5994)
+    
     [4th Photo carousel photo](https://pbs.twimg.com/media/Dr2xiZcU0AAIuVu.jpg)
+
   * The images from the 'Tour' page were obtained from:
+    
     [Hero Banner Image](https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/28795569_10156170690237442_4808262423842652160_n.jpg?_nc_cat=104&_nc_ht=scontent-dub4-1.xx&oh=3b720f87a83c65e48b713667d8d1d827&oe=5CD286EE)
+
   * The images from the 'Contact' page were obtained from:
+    
     [Hero Banner Image](https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/35927089_10156441710987442_5343484291739287552_n.jpg?_nc_cat=108&_nc_ht=scontent-dub4-1.xx&oh=427a042485a1f9d706cc4668301f1612&oe=5C8C15EE)
 
 ## Acknowledgements

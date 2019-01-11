@@ -30,7 +30,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>                        
                         </button>
-                        <a class="navbar-brand" href="index.html"><img class="icon" src="assets/images/pixieslogo.jpg" alt="Pixies Logo"></a>
+                        <a name="top" class="navbar-brand" href="index.html"><img class="icon" src="assets/images/pixieslogo.jpg" alt="Pixies Logo"></a>
                     </div>
                     
                     <div class="collapse navbar-collapse text-center" id="myNavbar">
@@ -100,21 +100,25 @@
             
             <div class="container-fluid">
                 <!----------Back to Top Button------->
+                <a href="#top">
                 <button type="button" class="btn btn-default btn-circle btn-lg text-center center-block">
-                <a href="#top"><i class="top-button glyphicon glyphicon-chevron-up"></i></a>
+                    <i class="top-button glyphicon glyphicon-chevron-up"></i>
                 </button>
+                </a>
                 <!----------Back to Top Button------->
                 <!----------Mailing List Form------->
-                <div class="form text-center">
-                    <div class="form-group center-block">
-                        <label for="exampleInputEmail1">Want to receive the latest Pixies updates? Join our mailing list!</label>
-                        <input type="email" style="width: 240px" class="form-control text-center center-block" id="exampleInputEmail1" placeholder="Email Address">
+                <form data-toggle="validator" role="form">
+                    <div class="form text-center">
+                        <div class="form-group center-block">
+                            <label for="exampleInputEmail1">Want to receive the latest Pixies updates? Join our mailing list!</label>
+                            <input type="email" style="width: 240px" class="form-control text-center center-block" id="exampleInputEmail1" placeholder="Email Address" required>
+                        </div>
+                        <button type="submit" class="sign-up-button btn btn-default">Sign Up</button>
+                        <div class="disclaimer">
+                            <p class="text-muted">By submitting my information, I agree to receive personalized updates and marketing messages about The Pixies based on my information, interests, activities, website visits and device data and in accordance with the privacy policy.</p>
+                        </div>
                     </div>
-                    <button type="submit" class="sign-up-button btn btn-default">Sign Up</button>
-                    <div class="disclaimer">
-                        <p class="text-muted">By submitting my information, I agree to receive personalized updates and marketing messages about The Pixies based on my information, interests, activities, website visits and device data and in accordance with the privacy policy.</p>
-                    </div>
-                </div>
+                </form>
                 <!----------Mailing List Form------->
                 <!----------Social Media links------->
                 <!----------These are customised from a Bootsnipp.com snippet of social link buttons------->
