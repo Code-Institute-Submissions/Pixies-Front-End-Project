@@ -106,9 +106,9 @@ Test Photo carousel's functionality on all devices.
  
 #####   Test 1: View latest news 
 
-   i. Go to the Home/Index Page   
+   i. Go to the Home/Index Page.   
    ii. Scroll down to the "Latest News" section.   
-   iii. Click on one of the news stories photos or "Read more" links in order to be redirected to the original article.   
+   iii. Click on one of the news stories, photos or "Read more" links that opens the original article in a new tab.   
    iv. Click on one of the other links associated with the stories to book tickets to shows or go to the music player.   
 
 #####   Test 2: Sign up to mailing list
@@ -123,7 +123,7 @@ Test Photo carousel's functionality on all devices.
   
    i.  Click on the "Listen" tab in the header.   
    ii. Navigate to one of the Pixies albums on the page.   
-   iii. Click on the play button on the album to play 30 second snippets of each song or log in to Spotify to avail of the full tracks.   
+   iii. Click on the play button on the album to play 30 second snippets of each song.  
    iv. Click on the links below each album for more download options or navigate to below all the albums for even more downloading/streaming options.   
 
 #### 3. User Story 3 - As a fan/potential fan, I want to to be able to watch music videos featuring the band including production videos and videos of their latest live performances. I also want to see photos from their instagram feeds and latest shows.
@@ -138,14 +138,15 @@ Test Photo carousel's functionality on all devices.
 ##### Test: View tour dates and book tickets.
  
    i. Click on the "Tour" tab in the header or access from one of the links in the "Latest News" section on the index page.    
-   ii. Scroll through the tour dates and click on one of the "Book" buttons to verify it takes you to a site that enables you to books tickets for that venue.   
+   ii. Scroll through the tour dates and click on one of the "Book" buttons to verify it takes you to a site that enables you to book tickets for that venue.   
 
 #### 5. User Story 5 - As a promoter/booker, I want to know how to contact the band's management in order to potentially book them for events.
   
 ##### Test: Enquire about booking the band  
   
-   i. Navigate to the "Contact" page by clicking on the tab in the header. 
-   ii. Enter your name, email and query into the respective fields. Verify the form will not allow you to submit without all the fields correctly filled out and that the email address field is valid.    
+   i. Navigate to the "Contact" page by clicking on the tab in the header.   
+   ii. Enter your name, email and query into the respective fields. 
+   iii. Verify the form will not allow you to submit without all the fields correctly filled out and that the email address field is valid.    
 
 ## Deployment
 The code for this website was pushed from Cloud9 to a repository in GitHub and is published on GitHun where you can access it here:
@@ -160,7 +161,7 @@ This website was designed by John O'Connor.
   * The text on the homepage for the three news stories were written by myself summarising the below articles.
     [https://www.stereoboard.com/pixies-tickets](https://www.stereoboard.com/pixies-tickets)
     
-    [https://www.billboard.com/articles/columns/rock/8483866/pixies-surfer-rosa-puerto-rico-frank-black](https://www.billboard.com/articles/columns/rock/8483866/pixies-surfer-rosa-puerto-rico-frank-black)
+    .[https://www.billboard.com/articles/columns/rock/8483866/pixies-surfer-rosa-puerto-rico-frank-black](https://www.billboard.com/articles/columns/rock/8483866/pixies-surfer-rosa-puerto-rico-frank-black)
     
     [https://www.rollingstone.com/music/music-news/pixies-announce-massive-30th-anniversary-surfer-rosa-reissue-705482/](https://www.rollingstone.com/music/music-news/pixies-announce-massive-30th-anniversary-surfer-rosa-reissue-705482/)
 
