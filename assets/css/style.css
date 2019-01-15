@@ -408,17 +408,3 @@ h4 {
         background-size: cover;
     }
 }
-
-@media (-webkit-overflow-scrolling: touch) { 
-    .parallax { 
-        background-image: url(../images/home.jpg);
-        height: 500px; 
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-    }
-}
