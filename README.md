@@ -59,15 +59,8 @@ The 'Tour' page exhibits the band's tour dates and gives the user the opportunit
 The contact page gives users/promoters the chance to get in touch with the band's management in order to book them for live shows. The page features the band's management contact details and also features a contact form for general queries. The form is from Bootstrap. 
 
 ### Features Left to Implement
-#### Adding functionality to Email Sign-Up
-I still need to make the forms functional and interactive. 
-
-#### Parallax Banner Image Media Queries
+#### Parallax Banner Image Media Queries   
 Test Parallax Banner on different devices. 
-
-#### Check Photo Carousel
-Test Photo carousel's functionality on all devices. 
-
 
 ## Technologies Used
 * [HTML](https://www.w3schools.com/html/html5_intro.asp) - [CSS](https://www.w3schools.com/css/) - [Javascript](https://www.w3schools.com/js/)
