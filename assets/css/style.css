@@ -157,7 +157,7 @@ h4 {
 .thumbnail {
     float: left;
     border:0px;
-    background-color: #fff0;
+    background-color: transparent;
 }
 
 .news-updates .thumbnail img {
@@ -185,7 +185,7 @@ h4 {
 
 .btn.btn-lg.streaming-button, .btn.btn-lg.streaming-button:active {
     border-style: none;
-    background-color: #fff0;
+    background-color: transparent;
     box-shadow: none;
 }
 
