@@ -38,7 +38,7 @@ The 'Pixies' logo features underneath the Nav Bar and on top of the Banner Image
 The Footer on each page features a form from Bootstrap's documentation that allows users to sign up to Pixies newsletter email for updates and news about the band and includes a data-based disclaimer about using the user's info. 
 
 #### Footer Social Media links
-The Footer features six Social Media links to the Pixies various social media and music streaming accounts: Facebook, Twitter, Google Plus, Instagram, Spotify and Youtube. The buttons are based on a Bootsnip.com code that I customised to suit the website. 
+The Footer features six Social Media links to the Pixies' various social media and music streaming accounts: Facebook, Twitter, Google Plus, Instagram, Spotify and Youtube. The buttons are based on a Bootsnip.com code that I customised to suit the website. 
 Each social media button is represented by a FontAwesome icon in white. When hovered over by the user, each icon expands and scales up and changes colour to the recognised color of the social media brand. The links open a new tab in the same browser window when clicked on.
 
 #### Home Page
@@ -53,7 +53,7 @@ The 'Watch' page features the visual content of the website, namely Video and Ph
 Below the videos section is the Photos section where there is a photo carousel from bootstrap's documentation displaying photos of the band from recent gigs and photoshoots. 
 
 #### 'Tour' Page
-The 'Tour' page exhibits the band's tour dates and gives the user the opportunity to book tickets. The tour dates are displayed in a table from Bootstrap and is punctuated with a red "BOOK" button. 
+The 'Tour' page exhibits the band's tour dates and gives the user the opportunity to book tickets. The tour dates are displayed in a table from Bootstrap and each date is punctuated with a red "BOOK" button. 
 
 #### 'Contact' Page
 The contact page gives users/promoters the chance to get in touch with the band's management in order to book them for live shows. The page features the band's management contact details and also features a contact form for general queries. The form is from Bootstrap.   
@@ -100,7 +100,7 @@ The contact page gives users/promoters the chance to get in touch with the band'
    **iii.** Click on one of the news stories, photos or "Read more" links that opens the original article in a new tab.   
    **iv.** Click on one of the other links associated with the stories to book tickets to shows or go to the music player.   
 
-#####   Test 2: Sign up to mailing list
+#####   Test 2: Sign up to the band's mailing list
 
    **i.** Scroll down to the footer on any of the pages and locate the mailing list sign up form.   
    **ii.** Verify that an error message appears when an empty field is submitted.   
@@ -136,6 +136,18 @@ The contact page gives users/promoters the chance to get in touch with the band'
    **i.** Navigate to the "Contact" page by clicking on the tab in the header.   
    **ii.** Enter your name, email and query into the respective fields.  
    **iii.** Verify the form will not allow you to submit without all the fields correctly filled out and that the email address field is valid.    
+   
+### Responsiveness  
+
+I have tested out the responsivesness of the website on Google Chrome and Mozilla Firefox using Dev tools. I have also tested the website on the devices below, both in horizontal and vertical view ports and they have all worked nicely.
+   
+  * Small devices - iPhone 6s, Samsung J5, Samsung S9. 
+  * Medium devices - iPad. 
+  * Large/Extra Large devices - Lenovo ideapad 520, Asus Vivobook.  
+
+### Validation
+
+I have validated my html code through [https://validator.w3.org/](https://validator.w3.org/) and my css code through [http://jigsaw.w3.org/css-validator/](http://jigsaw.w3.org/css-validator/) and no errors have occurred.
 
 ## Deployment
 The code for this website was pushed from Cloud9 to a repository in GitHub and is published on GitHub where you can access it here:
