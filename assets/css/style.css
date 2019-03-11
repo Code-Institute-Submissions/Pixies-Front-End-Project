@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    margin:0;
+    margin: 0;
 }
 
 hr {
@@ -12,7 +12,7 @@ hr {
 }
 
 
-/* -- Nav -- */
+/* -- Navbar -- */
 
 .navbar-inverse {
     background-color: #000;
@@ -46,16 +46,16 @@ hr {
 }
 
 
-/* -- Banner -- */
+/* -- Banner Section -- */
 
-.banner-container{
+.banner-container {
     max-width: 100%;
     height: 100%;
 }
 
-.parallax { 
+.parallax {
     background-image: url(../images/home.jpg);
-    height: 500px; 
+    height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -67,7 +67,7 @@ hr {
 
 .listen-parallax {
     background-image: url(../images/pixiesmedia.jpg);
-    height: 500px; 
+    height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -76,7 +76,7 @@ hr {
 
 .watch-parallax {
     background-image: url(../images/watchbanner.jpg);
-    height: 500px; 
+    height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@ hr {
 
 .tour-parallax {
     background-image: url(../images/tour.jpg);
-    height: 500px; 
+    height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -94,7 +94,7 @@ hr {
 
 .contact-parallax {
     background-image: url(../images/contact.jpg);
-    height: 500px; 
+    height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -139,7 +139,10 @@ h4 {
 
 .container-fluid .jumbotron {
     border-radius: 0px;
+    border-color: #000;
 }
+
+/* -- Latest News Section -- */
 
 .news {
     padding-top: 15px;
@@ -156,7 +159,7 @@ h4 {
 
 .thumbnail {
     float: left;
-    border:0px;
+    border: 0px;
     background-color: transparent;
 }
 
@@ -174,8 +177,7 @@ h4 {
     border-width: 1.5px;
 }
 
-/* -- Listen -- */
-
+/* -- Listen Page-- */
 
 .listen {
     margin-right: 15px;
@@ -183,17 +185,20 @@ h4 {
     margin-bottom: 15px;
 }
 
-.btn.btn-lg.streaming-button, .btn.btn-lg.streaming-button:active {
+.btn.btn-lg.streaming-button,
+.btn.btn-lg.streaming-button:active {
     border-style: none;
     background-color: transparent;
     box-shadow: none;
 }
 
-.btn-sm {   
+.btn-sm {
     border: 1.5px solid;
 }
 
-.btn.btn-default.btn-sm:active, .btn.btn-default.btn-sm:hover, .btn.btn-default.btn-sm:focus {
+.btn.btn-default.btn-sm:active,
+.btn.btn-default.btn-sm:hover,
+.btn.btn-default.btn-sm:focus {
     color: #333;
     background-color: #d4d4d4;
     border-color: #333;
@@ -204,22 +209,23 @@ h4 {
     height: 68px;
 }
 
-/* -- Watch -- */
+/* -- Watch Page -- */
 
-
-.watch {
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 15px;
-}
-
+.watch,
 .photos {
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 15px;
 }
 
-/* -- Tour -- */
+/* -- Photo Carousel Image settings -- */
+
+.carousel-image {
+    height: 400px!important;
+    width: 100%;
+}
+
+/* -- Tour Page-- */
 
 .tour {
     margin-right: 15px;
@@ -236,19 +242,24 @@ h4 {
     text-transform: uppercase;
 }
 
-.book-button:hover, .book-button:focus, .book-button:active, .book-button.active, .open > .dropdown-toggle.book-button {
+.book-button:hover,
+.book-button:focus,
+.book-button:active,
+.book-button.active,
+.open>.dropdown-toggle.book-button {
     color: #f1d6d6;
     background-color: #e92c2ce0;
     border-color: #000000;
 }
 
-.book-button:active, .book-button.active {
+.book-button:active,
+.book-button.active {
     color: #f1d6d6;
     background-color: #c41111;
     border-color: #000000;
 }
 
-/* -- Contact -- */
+/* -- Contact Page-- */
 
 .contact {
     margin-right: 5px;
@@ -256,7 +267,9 @@ h4 {
     margin-bottom: 15px;
 }
 
-#name, #email, #message  {
+#name,
+#email,
+#message {
     color: #333;
     text-transform: uppercase;
 }
@@ -306,7 +319,8 @@ h4 {
 }
 
 /* -- Social Media Links -- */
- 
+
+/* -- Taken and edited from Bootsnip code -- */
 
 .social-links {
     margin-bottom: 15px;
@@ -318,7 +332,8 @@ h4 {
     -o-transform: scale(1.1);
     transform: scale(1.1);
 }
- .social {
+
+.social {
     color: #fff;
     -webkit-transform: scale(0.8);
     -moz-transform: scale(0.8);
@@ -330,50 +345,62 @@ h4 {
 }
 
 #social-fb:hover {
-     color: #3B5998;
+    color: #3B5998;
 }
+
 #social-tw:hover {
-     color: #4099FF;
+    color: #4099FF;
 }
+
 #social-gp:hover {
-     color: #d34836;
+    color: #d34836;
 }
+
 #social-in:hover {
-     color: #cd486b;
+    color: #cd486b;
 }
+
 #social-spot:hover {
-     color: #1db954;
+    color: #1db954;
 }
+
 #social-yt:hover {
-     color: #ff0000;
+    color: #ff0000;
 }
- 
- /* -- Media Queries -- */
- 
-@media (min-width: 640px){
-    
+
+/* -- Media Queries -- */
+
+@media (min-width: 640px) {
+
     .news {
-       margin-left: 20px;
-       margin-right: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
-@media (min-width: 992px){
-    
+@media (min-width: 992px) {
+
     .news {
-       margin-left: 50px;
-       margin-right: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .jumbotron {
+        height: 450px;
     }
 }
 
-@media (max-width: 480px){
-    
+/* -- Fits the font to the table on Tour Page on small devices -- */
+
+@media (max-width: 480px) {
+
     .table {
         font-size: 10px!important;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
+
 @media (min-width: 768px) {
     .contact-parallax {
         background-image: url(../images/contact.jpg);
@@ -383,7 +410,7 @@ h4 {
         background-repeat: no-repeat;
         background-size: cover;
     }
-    
+
     .parallax {
         background-image: url(../images/home.jpg);
         height: 500px;
@@ -391,12 +418,6 @@ h4 {
         background-position: 55% 45%;
         background-repeat: no-repeat;
         background-size: cover;
-    }
-} 
-
-@media (min-width:992px) {
-    .jumbotron {
-        height:450px;
     }
 }
 
@@ -412,12 +433,13 @@ h4 {
 }
 
 /* Turns off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+
 @media only screen and (max-device-width: 1366px) {
-  .parallax,
-  .listen-parallax, 
-  .watch-parallax,
-  .tour-parallax,
-  .contact-parallax {
-    background-attachment: scroll;
-  }
+    .parallax,
+    .listen-parallax,
+    .watch-parallax,
+    .tour-parallax,
+    .contact-parallax {
+        background-attachment: scroll;
+    }
 }
