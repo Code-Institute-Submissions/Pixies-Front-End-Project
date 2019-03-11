@@ -413,7 +413,11 @@ h4 {
 
 /* Turns off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
-  .parallax {
+  .parallax,
+  .listen-parallax, 
+  .watch-parallax,
+  .tour-parallax,
+  .contact-parallax {
     background-attachment: scroll;
   }
 }
