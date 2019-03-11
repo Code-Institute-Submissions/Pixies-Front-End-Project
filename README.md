@@ -31,7 +31,7 @@ The last change I made that deviated from my wireframes was to the Footer. I rem
 The Navigation Bar features a small image of 'The Pixies' logo in the top left with a link back to index.html. The menu for the website with each page is featured on the right of the Nav bar which collapses into a burger icon when in mobile view. Each page font is in grey and transitions to white when hovered over.
 
 #### Parallax Banner Hero Image
-Each page features a Hero Banner Image under the Nav Bar that make up the second part of the header. The Banner Image is an image of the band either performing live or from a photoshoot that provide a different visual experience for each page. The parallax effect makes the banner image move at a different speed than the rest of the website when scrolling. 
+Each page features a Hero Banner Image under the Nav Bar that make up the second part of the header. The Banner Image is an image of the band either performing live or from a photoshoot that provide a different visual experience for each page. The parallax effect makes the banner image move at a different speed than the rest of the website when scrolling. The Parallax effect is disabled in mobile and tablet views. 
 The 'Pixies' logo features underneath the Nav Bar and on top of the Banner Image and contains a link to the index.html. The Logo disappears on mobile view to avoid overcrowding the screen for users as the smaller logo in the navbar is enough to display the band's brand.
 
 #### Footer Email Sign-Up
@@ -45,7 +45,7 @@ Each social media button is represented by a FontAwesome icon in white. When hov
 The home page features a customised Jumbotron from Bootstrap's documentation underneath the Banner image advertising the band's latest album and a large "Listen" button in red underneath that stands out in contrast to the grey background. The home page also features the latest news updates with links to the "Listen" and "Tour" pages of the website as well as external links to the featured stories that open in a new tab when clicked. 
 
 #### 'Listen' Page
-The 'Listen' page features the audio content of the website. Each Pixies full studio album is embedded on this page from Spotify. The user can listen to 30 second clips of the songs from the embedded player if not signed in to Spotify or can visit Spotify from a link in the player. The user can listen to the full tracks if signed in to Spotify and there is an option to directly log in within the embedded player. In mobile view, the embedded albums display one per row but expand to two per row in medium view and then to three per row in desktop view. Each embedded album features buttons directly below them that link to various popular downloading and streaming sites where the user can purchase, download or stream the album.
+The 'Listen' page features the audio content of the website. Each Pixies full studio album is embedded on this page from Spotify. The user can listen to 30 second clips of the songs from the embedded player if not signed in to Spotify or can visit Spotify from a link in the player.  In mobile view, the embedded albums display one per row but expand to two per row in medium view and then to three per row in desktop view. Each embedded album features buttons directly below them that link to various popular downloading and streaming sites where the user can purchase, download or stream the album.
 Below the embedded albums are a more extensive list of links of where to download/purchase the band's music featured in larger buttons.
 
 #### 'Watch' Page
@@ -56,11 +56,7 @@ Below the videos section is the Photos section where there is a photo carousel f
 The 'Tour' page exhibits the band's tour dates and gives the user the opportunity to book tickets. The tour dates are displayed in a table from Bootstrap and is punctuated with a red "BOOK" button. 
 
 #### 'Contact' Page
-The contact page gives users/promoters the chance to get in touch with the band's management in order to book them for live shows. The page features the band's management contact details and also features a contact form for general queries. The form is from Bootstrap. 
-
-### Features Left to Implement
-#### Parallax Banner Image Media Queries   
-Test Parallax Banner on different devices. 
+The contact page gives users/promoters the chance to get in touch with the band's management in order to book them for live shows. The page features the band's management contact details and also features a contact form for general queries. The form is from Bootstrap.   
 
 ## Technologies Used
 * [HTML](https://www.w3schools.com/html/html5_intro.asp) - [CSS](https://www.w3schools.com/css/) - [Javascript](https://www.w3schools.com/js/)
@@ -99,50 +95,50 @@ Test Parallax Banner on different devices.
  
 #####   Test 1: View latest news 
 
-   i. Go to the Home/Index Page.   
-   ii. Scroll down to the "Latest News" section.   
-   iii. Click on one of the news stories, photos or "Read more" links that opens the original article in a new tab.   
-   iv. Click on one of the other links associated with the stories to book tickets to shows or go to the music player.   
+   **i.** Go to the Home/Index Page.   
+   **ii.** Scroll down to the "Latest News" section.   
+   **iii.** Click on one of the news stories, photos or "Read more" links that opens the original article in a new tab.   
+   **iv.** Click on one of the other links associated with the stories to book tickets to shows or go to the music player.   
 
 #####   Test 2: Sign up to mailing list
 
-   i. Scroll down to the footer on any of the pages and locate the mailing list sign up form.   
-   ii. Verify that an error message appears when an empty field is submitted.   
-   iii. Verify that an error message appears when no email address is present.   
+   **i.** Scroll down to the footer on any of the pages and locate the mailing list sign up form.   
+   **ii.** Verify that an error message appears when an empty field is submitted.   
+   **iii.** Verify that an error message appears when no email address is present.   
 
 #### 2. User Story 2 - As a fan/potential fan, I want to be able to listen to the band's new music and have access to their back catalogue.
   
 #####  Test: Listen to audio tracks
   
-   i.  Click on the "Listen" tab in the header.   
-   ii. Navigate to one of the Pixies albums on the page.   
-   iii. Click on the play button on the album to play 30 second snippets of each song.  
-   iv. Click on the links below each album for more download options or navigate to below all the albums for even more downloading/streaming options.   
+   **i.**  Click on the "Listen" tab in the header.   
+   **ii.** Navigate to one of the Pixies albums on the page.   
+   **iii.** Click on the play button on the album to play 30 second snippets of each song.  
+   **iv.** Click on the links below each album for more download options or navigate to below all the albums for even more downloading/streaming options.   
 
 #### 3. User Story 3 - As a fan/potential fan, I want to to be able to watch music videos featuring the band including production videos and videos of their latest live performances. I also want to see photos from their instagram feeds and latest shows.
 
 ##### Test: Watch video content
 
-   i.  Click on the "Watch" tab in the header.   
-   ii. Scroll down to the videos. Play, pause, full screen and adjust volume on embedded players.   
+   **i.**  Click on the "Watch" tab in the header.   
+   **ii.** Scroll down to the videos. Play, pause, full screen and adjust volume on embedded players.   
 
 #### 4. User Story 4 - As a fan/potential fan, I want to check their latest tour dates and would like to have the ability to buy tickets to those shows. 
  
 ##### Test: View tour dates and book tickets.
  
-   i. Click on the "Tour" tab in the header or access from one of the links in the "Latest News" section on the index page.    
-   ii. Scroll through the tour dates and click on one of the "Book" buttons to verify it takes you to a site that enables you to book tickets for that venue.   
+   **i.** Click on the "Tour" tab in the header or access from one of the links in the "Latest News" section on the index page.    
+   **ii.** Scroll through the tour dates and click on one of the "Book" buttons to verify it takes you to a site that enables you to book tickets for that venue.   
 
 #### 5. User Story 5 - As a promoter/booker, I want to know how to contact the band's management in order to potentially book them for events.
   
 ##### Test: Enquire about booking the band  
   
-   i. Navigate to the "Contact" page by clicking on the tab in the header.   
-   ii. Enter your name, email and query into the respective fields. 
-   iii. Verify the form will not allow you to submit without all the fields correctly filled out and that the email address field is valid.    
+   **i.** Navigate to the "Contact" page by clicking on the tab in the header.   
+   **ii.** Enter your name, email and query into the respective fields.  
+   **iii.** Verify the form will not allow you to submit without all the fields correctly filled out and that the email address field is valid.    
 
 ## Deployment
-The code for this website was pushed from Cloud9 to a repository in GitHub and is published on GitHun where you can access it here:
+The code for this website was pushed from Cloud9 to a repository in GitHub and is published on GitHub where you can access it here:
 
 [https://johnnycistudent.github.io/Pixies-Front-End-Project/](https://johnnycistudent.github.io/Pixies-Front-End-Project/)
 
@@ -154,7 +150,7 @@ This website was designed by John O'Connor.
   * The text on the homepage for the three news stories were written by myself summarising the below articles.
     [https://www.stereoboard.com/pixies-tickets](https://www.stereoboard.com/pixies-tickets)
     
-    .[https://www.billboard.com/articles/columns/rock/8483866/pixies-surfer-rosa-puerto-rico-frank-black](https://www.billboard.com/articles/columns/rock/8483866/pixies-surfer-rosa-puerto-rico-frank-black)
+    [https://www.billboard.com/articles/columns/rock/8483866/pixies-surfer-rosa-puerto-rico-frank-black](https://www.billboard.com/articles/columns/rock/8483866/pixies-surfer-rosa-puerto-rico-frank-black)
     
     [https://www.rollingstone.com/music/music-news/pixies-announce-massive-30th-anniversary-surfer-rosa-reissue-705482/](https://www.rollingstone.com/music/music-news/pixies-announce-massive-30th-anniversary-surfer-rosa-reissue-705482/)
 
@@ -222,4 +218,7 @@ This website was designed by John O'Connor.
     [Hero Banner Image](https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/35927089_10156441710987442_5343484291739287552_n.jpg?_nc_cat=108&_nc_ht=scontent-dub4-1.xx&oh=427a042485a1f9d706cc4668301f1612&oe=5C8C15EE)
 
 ## Acknowledgements
+  * I consulted [Stack Overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/) and [Slack](https://slack.com/) during the making of this project for general queries. Slack was especially useful for seeing what other people thought of the design of the website.   
+  * I used a lot of documentation from [Bootstrap v3.3.7](http://getbootstrap.com/docs/3.3/css/) which is credited in the comments in the html. The social media icons in the footer were taken from this [Bootsnip code](https://bootsnipp.com/snippets/84kpo) and edited to suit the website.
+  * I would also like to thank my mentor Rick for his guidance during the making of this project.
 
