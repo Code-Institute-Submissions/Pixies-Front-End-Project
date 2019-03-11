@@ -284,6 +284,12 @@ h4 {
 
 /* -- Top Button -- */
 
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .top-button {
     color: #000;
 }
@@ -378,6 +384,8 @@ h4 {
     }
 }
 
+/* -- Large Devices -- */
+
 @media (min-width: 992px) {
 
     .news {
@@ -395,11 +403,18 @@ h4 {
     }
 }
 
+/* -- Extra Large Devices -- */
+
 @media (min-width: 1200px) {
     .jumbotron {
         height: 500px;
     }
-    
+
+    .photos {
+        margin-right: 70px;
+        margin-left: 70px;
+    }
+
     .carousel-image {
         height: 550px!important;
         width: 100%;
